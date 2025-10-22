@@ -12,9 +12,9 @@ public class FloydTriangle {
         }
         else {
             System.out.println("Floyd's Triangle with " + rows + " rows: ");
-            for (int i = 1; i < rows; i++){
+            for (int i = 1; i < rows+1; i++){
                 for (int j = 1; j <= i; j++){
-                    int num = (i+j);
+                    int num = i*(i-1)/2+j;
                     System.out.printf("%-4s", num);
                 }
                 System.out.println();
@@ -23,5 +23,6 @@ public class FloydTriangle {
 
         value.close();
     }
+
 
 }
