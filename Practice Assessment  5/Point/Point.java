@@ -13,7 +13,7 @@ class Point {
         x = n;
     }
     void setY(int n){
-        x = n;
+        y = n;
     }
 
     int getX(){
@@ -33,3 +33,4 @@ class Point {
         System.out.format("%.2f", distance);
     }
 }
+
