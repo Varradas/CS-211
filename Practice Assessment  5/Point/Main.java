@@ -14,8 +14,9 @@ public class Main {
             point.setX(x);
             point.setY(y);
 
-            point.printcoordinates(x, y);
-            point.calculateDistance(x, y);
+            point.printcoordinates(point.getX(), point.getY());
+            point.calculateDistance(point.getX(), point.getY());
         }
     }
 }
+
